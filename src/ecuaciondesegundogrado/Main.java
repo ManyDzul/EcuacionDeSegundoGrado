@@ -17,7 +17,7 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here   
         
-        EcuacionDeSegundoGrado ecuacionNumero1 = new EcuacionDeSegundoGrado(15, 1, -12);
+    EcuacionDeSegundoGrado ecuacionNumero1 = new EcuacionDeSegundoGrado(15, 1, -12);
         System.out.println("Ecuacion de segundo grado:" + ecuacionNumero1.getDiscriminante());
         System.out.println("RaicesCuadradas: " + ecuacionNumero1.getNumeroDeSoluciones());
         System.out.println("Prueba1.1: " + ecuacionNumero1.getRaiz1());
